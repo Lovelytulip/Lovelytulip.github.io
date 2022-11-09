@@ -22,33 +22,36 @@ html {
 }
 
 .title {
-  color:navy;
+  color: navy;
   font-weight: 700;
   font-size: 1.875em;
   line-height: 28px;
   margin-top: 35px;
 }
-.block{
-display: flex;
-gap: 40px;
-justify-content: center;
-margin-top: 40px;
+
+.block {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
 }
+
 .block__item__roll {
   width: 300px;
   height: 300px;
   border-radius: 45px;
-  background-color:  rgb(88, 87, 87);
+  background-color: rgb(88, 87, 87);
   background-image: url(assets/white.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
 }
+
 .block__item-img {
   width: 300px;
   height: 300px;
   border-radius: 45px;
 }
+
 .block__item__slide {
   width: 300px;
   height: 300px;
@@ -64,11 +67,12 @@ margin-top: 40px;
   gap: 20px;
   align-items: center;
 }
+
 .block__item__apear {
   width: 300px;
   height: 300px;
   border-radius: 45px;
-  background-color:  rgb(88, 87, 87);
+  background-color: rgb(88, 87, 87);
   animation-duration: 4s;
   animation-name: apear;
   animation-iteration-count: 3;
@@ -79,7 +83,7 @@ margin-top: 40px;
   font-size: 1.875em;
   line-height: 28px;
   margin-top: 50px;
-  color:white;
+  color: white;
 }
 
 .block__item__roll:hover {
@@ -94,7 +98,7 @@ margin-top: 40px;
 }
 
 @keyframes roll {
-  from{
+  from {
     border-radius: 100%;
   }
 
@@ -108,6 +112,7 @@ margin-top: 40px;
 
     background-color: aquamarine;
   }
+
   to {
     background-color: blue;
   }
@@ -115,10 +120,11 @@ margin-top: 40px;
 
 @keyframes apear {
   from {
-   margin-top: 100%;
+    margin-top: 100%;
 
   }
+
   to {
-   margin-left: 10%;
+    margin-left: 10%;
   }
 }
